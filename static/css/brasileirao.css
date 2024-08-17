@@ -4,7 +4,7 @@
    /* border: 1px solid #ccc;*/
 }
 body{
-    background-image: url(../imgs/imagem1.jpg);
+    background-image: url(../imgs/Brasileirãobg.jpg);
     color: gold;
     font-size: 24px;
 }
@@ -90,6 +90,22 @@ img {
     padding: 2px;
     width: 40px;
     height: 40px;
+}
+.trg4{
+    background-color: blue;
+    color: white;
+}
+.trg6{
+    background-color:green;
+    color: white;
+}
+.trg12{
+    background-color:orange;
+    color: white;
+}
+.trz4{
+    background-color:Red;
+    color: white;
 }
 .trgrey {
     background-color: rgba(150, 150, 150, 0.771);
