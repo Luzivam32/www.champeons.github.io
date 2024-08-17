@@ -1,23 +1,39 @@
 * {
     margin: 0;
-    padding: 10px;
-    /*border: 1px solid #ccc;*/
+    padding: 0;
+   /* border: 1px solid #ccc;*/
 }
 body{
     background-image: url(../imgs/imagem1.jpg);
-    color: white;
+    color: gold;
     font-size: 24px;
 }
 header{
     background-color:rgba(50, 250, 0, 0.222);
-    display: flex;
+    display: block;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+header ul {
+    margin: 2px;
+    padding: 4px;
+    list-style: none;
+    display:flex;
+}
+header li {
+    margin: 2px;
+    padding: 4px;
 }
 header img{
     padding: 2px;
     width: 100px;
     height: 100px;
+}
+a {
+    color: white;
+}
+ul {
+    display: block;
 }
 section{
     background-color:rgba(250, 250, 250, 0.222);
